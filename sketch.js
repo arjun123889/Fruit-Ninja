@@ -51,6 +51,7 @@ function draw() {
     fruits();
     Enemy();
     
+    //controlling the sword with a mouse
     sword.y=World.mouseY;
     sword.x=World.mouseX;
   
